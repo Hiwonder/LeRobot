@@ -12,10 +12,39 @@ LeRobot 是由 Hugging Face 开发的先进 AI 机器人库，由幻尔科技（
 
 LeRobot 包含已被证明可以迁移到真实世界的最先进方法，重点关注模仿学习和强化学习。它支持多种机器人平台，包括 SO-101、HopeJR、LeKiwi 等。
 
+## 幻尔科技 SO-ARM101
+
+通过端到端的模仿学习流程，您可以使用*主臂*演示任务。记录的轨迹将被转换为训练模型，使*从臂*能够自主复现任务。
+
+为了支持稳定且可重复的实验，幻尔科技 SO-ARM101 具有以下特点：
+
+1. **完全开源的硬件和软件栈**：可以使用模仿学习和强化学习等技术进行训练，执行物体操作和动作复现等任务。整个系统——从硬件到软件和算法——完全开源。
+
+<p align="center">
+  <img src="./sources/images/so-arm101-opensource.png" alt="SO-ARM101 开源" width="400"/>
+</p>
+
+2. **30kg 磁编码舵机，高扭矩、低抖动、精确控制**：结合旋转底座和灵活的关节运动，机械臂实现平滑流畅的运动，消除了原始设计中的功率限制和振动问题。
+
+<p align="center">
+  <img src="./sources/images/so-arm101-servo.png" alt="SO-ARM101 舵机" width="400"/>
+</p>
+
+3. **双摄像头视觉系统，用于真实世界感知和基于视觉的学习**：精确的近距离操作 + 全局环境感知。
+
+<p align="center">
+  <img src="./sources/images/so-arm101-camera1.png" alt="SO-ARM101 摄像头 1" width="250"/>
+  <img src="./sources/images/so-arm101-camera2.png" alt="SO-ARM101 摄像头 2" width="250"/>
+</p>
+
+SO-ARM101 为研究示教学习、操作和具身智能提供了一个实用的平台。
+
 ## 官方资源
 
 ### 幻尔科技官方
 - **官方网站**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
+- **产品页面**: [https://www.hiwonder.com/products/lerobot-so-101](https://www.hiwonder.com/products/lerobot-so-101)
+- **官方文档**: [https://www.hiwonder.com.cn/store/learn/185.html](https://www.hiwonder.com.cn/store/learn/185.html)
 - **技术支持**: support@hiwonder.com
 
 ### 原版 LeRobot

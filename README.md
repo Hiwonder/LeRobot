@@ -12,10 +12,39 @@ LeRobot is a state-of-the-art AI robotics library developed by Hugging Face, ada
 
 LeRobot contains state-of-the-art approaches that have been shown to transfer to the real-world with a focus on imitation learning and reinforcement learning. It supports various robot platforms including SO-101, HopeJR, LeKiwi, and more.
 
+## Hiwonder SO-ARM101
+
+Using an end-to-end imitation learning pipeline, you demonstrate tasks with a *Leader Arm*. The recorded trajectories are converted into a trained model, enabling the *Follower Arm* to reproduce the task autonomously.
+
+To support stable and repeatable experiments, Hiwonder SO-ARM101 features:
+
+1. **Full access to the open-source hardware and software stack**: It can be trained using techniques like imitation learning and reinforcement learning to perform tasks such as object manipulation and motion replication. The entire system—from hardware to software and algorithms—is fully open-source.
+
+<p align="center">
+  <img src="./sources/images/so-arm101-opensource.png" alt="SO-ARM101 Open Source" width="400"/>
+</p>
+
+2. **30kg magnetic-encoder servos for high torque, low jitter, and precise control**: Combined with rotating base and flexible joint movements, the arm achieves smooth and fluid motion, eliminating the power limitations and vibrations found in the original design.
+
+<p align="center">
+  <img src="./sources/images/so-arm101-servo.png" alt="SO-ARM101 Servo" width="400"/>
+</p>
+
+3. **Dual-camera vision system for real-world perception and vision-based learning**: Precise close-range manipulation + global environment awareness.
+
+<p align="center">
+  <img src="./sources/images/so-arm101-camera1.png" alt="SO-ARM101 Camera 1" width="250"/>
+  <img src="./sources/images/so-arm101-camera2.png" alt="SO-ARM101 Camera 2" width="250"/>
+</p>
+
+SO-ARM101 provides a practical platform for studying learning-from-demonstration, manipulation, and embodied intelligence.
+
 ## Official Resources
 
 ### Official Hiwonder
 - **Official Website**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
+- **Product Page**: [https://www.hiwonder.com/products/lerobot-so-101](https://www.hiwonder.com/products/lerobot-so-101)
+- **Official Documentation**: [https://www.hiwonder.com.cn/store/learn/185.html](https://www.hiwonder.com.cn/store/learn/185.html)
 - **Technical Support**: support@hiwonder.com
 
 ### Original LeRobot
