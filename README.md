@@ -45,6 +45,7 @@ SO-ARM101 provides a practical platform for studying learning-from-demonstration
 - **Official Website**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
 - **Product Page**: [https://www.hiwonder.com/products/lerobot-so-101](https://www.hiwonder.com/products/lerobot-so-101)
 - **Official Documentation**: [https://www.hiwonder.com.cn/store/learn/185.html](https://www.hiwonder.com.cn/store/learn/185.html)
+- **Video Tutorial**: [https://www.youtube.com/watch?v=oitT8geMat0](https://www.youtube.com/watch?v=oitT8geMat0)
 - **Technical Support**: support@hiwonder.com
 
 ### Original LeRobot

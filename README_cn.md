@@ -45,6 +45,7 @@ SO-ARM101 为研究示教学习、操作和具身智能提供了一个实用的�
 - **官方网站**: [https://www.hiwonder.com/](https://www.hiwonder.com/)
 - **产品页面**: [https://www.hiwonder.com/products/lerobot-so-101](https://www.hiwonder.com/products/lerobot-so-101)
 - **官方文档**: [https://www.hiwonder.com.cn/store/learn/185.html](https://www.hiwonder.com.cn/store/learn/185.html)
+- **视频教程**: [https://www.youtube.com/watch?v=oitT8geMat0](https://www.youtube.com/watch?v=oitT8geMat0)
 - **技术支持**: support@hiwonder.com
 
 ### 原版 LeRobot
